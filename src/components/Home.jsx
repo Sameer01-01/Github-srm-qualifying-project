@@ -4,10 +4,10 @@ import logo from '../assets/me.jpg';
 const Home = () => {
     return (
         <>
-            <div className='bg-zinc-950 bg-opacity-95 bg-cover min-h-screen p-4 md:p-8 lg:p-16'>
+            <div className='bg-zinc-950 bg-opacity-95 bg-cover min-h-screen p-5 md:p-8 lg:p-32'>
 
                 {/* Main Title */}
-                <div className='text-2xl md:text-3xl lg:text-4xl text-white font-bold font-sans text-center'>
+                <div className='text-2xl md:text-3xl lg:text-5xl text-white font-bold font-sans text-center'>
                     Gear up for <span className='text-rose-600'>Success: </span>Your Ultimate Preparation Hub!
                 </div>
 
@@ -17,7 +17,7 @@ const Home = () => {
                 </div>
 
                 {/* Main Card */}
-                <div className='border-2 border-gray-700 bg-zinc-800 rounded-2xl flex flex-col md:flex-row items-center p-4 md:p-8 mt-8 max-w-[calc(100%-40px)] md:max-w-[calc(100%-260px)] mx-auto'>
+                <div className='border-2 border-gray-700 bg-zinc-800 rounded-2xl flex flex-col md:flex-row items-center p-4 md:p-8 mt-9 max-w-[calc(100%-40px)] md:max-w-[calc(100%-230px)] mx-auto'>
                     <div>
                         <img src={logo} alt="Img" className='w-24 md:w-28 rounded-3xl p-1' />
                     </div>
