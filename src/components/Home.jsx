@@ -98,6 +98,45 @@ const Home = () => {
                     </div>
                 </div>
 
+
+
+                <div>
+                    <p className='text-5xl text-center text-white font-bold mt-72'>Connect with our community</p>
+                </div>
+                <div className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-16'>
+    <div className='border-2 bg-neutral-800 border-zinc-700 hover:border-white rounded-2xl text-center px-6 lg:p-10  flex flex-col justify-center items-center'>
+        <div className='bg-zinc-700 rounded-2xl p-6 lg:px-8 lg:py-12 flex flex-col justify-center items-center'>
+            <span className='text-white font-bold text-4xl sm:text-5xl lg:text-6xl'>530K+</span><br />
+            <span className='text-white text-lg sm:text-xl lg:text-2xl'>Youthoob</span>
+        </div>
+    </div>
+    
+    <div className='border-2 bg-neutral-800 border-zinc-700 hover:border-white rounded-2xl text-center p-6 lg:p-10 flex flex-col justify-center items-center'>
+        <div className='bg-zinc-700 rounded-2xl p-6 lg:p-8 lg:py-12 flex flex-col justify-center items-center'>
+            <span className='text-white font-bold text-4xl sm:text-5xl lg:text-6xl'>120K+</span><br />
+            <span className='text-white text-lg sm:text-xl lg:text-2xl'>Twitter</span>
+        </div>
+    </div>
+
+    <div className='border-2 bg-neutral-800 border-zinc-700 hover:border-white rounded-2xl text-center p-6 lg:p-10 flex flex-col justify-center items-center'>
+        <div className='bg-zinc-700 rounded-2xl p-6 lg:p-8 lg:py-12 flex flex-col justify-center items-center'>
+            <span className='text-white font-bold text-4xl sm:text-5xl lg:text-6xl'>120K+</span><br />
+            <span className='text-white text-lg sm:text-xl lg:text-2xl'>Instagram</span>
+        </div>
+    </div>
+
+    <div className='border-2 bg-neutral-800 border-zinc-700 hover:border-white rounded-2xl text-center p-6 lg:p-10 flex flex-col justify-center items-center'>
+        <div className='bg-zinc-700 rounded-2xl p-6 lg:p-8 lg:py-12 flex flex-col justify-center items-center'>
+            <span className='text-white font-bold text-4xl sm:text-5xl lg:text-6xl'>560K+</span><br />
+            <span className='text-white text-lg sm:text-xl lg:text-2xl'>LinkedIn</span>
+        </div>
+    </div>
+</div>
+
+
+
+
+
             </div>
         </>
     );
