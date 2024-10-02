@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import logo from '../assets/logo.png';
 import { FiMenu, FiX } from 'react-icons/fi'; // React Icons for hamburger and close icon
 
