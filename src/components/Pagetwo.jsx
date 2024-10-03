@@ -8,18 +8,18 @@ const Pagetwo = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Default for larger screens
+    slidesToShow: 3, 
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024, // Tablets and below
+        breakpoint: 1024,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 640, // Mobile devices
+        breakpoint: 640, 
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -40,22 +40,21 @@ const Pagetwo = () => {
           </p>
         </div>
 
-        <div className="w-3/4 m-auto">
+        <div className="w-3/4 m-auto pb-12">
           <div className="mt-20">
             <Slider {...settings}>
               {data.map((d, index) => (
                 <div
                   key={index}
-                  className="bg-neutral-900 border-2 border-zinc-700 rounded-2xl h-[300px] w-[300px] hover:border-white"
-                >
-                  {/* Card content */}
+                  className="bg-neutral-900 border-2 border-zinc-700 rounded-2xl h-[300px] w-[300px] hover:border-white">
+                
                   <div>
                     <p className="text-white text-4xl font-bold px-3 py-5">
                       {d.head}
                     </p>
                   </div>
                   <div>
-                    <p className="text-rose-800 text-xl font-semibold px-3">
+                    <p className="text-rose-500 text-xl font-semibold px-3">
                       {d.bottom}
                     </p>
                     <p className="text-white px-3 py-5">{d.last}</p>
