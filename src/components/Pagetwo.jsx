@@ -73,7 +73,7 @@ const data = [
   {
     head: "O1",
     bottom: "Expert-Crafted Learning",
-    last: "Our team of accomplished engineers, with impressive coding profiles across various programming platforms, hails from top tech companies like Google, Amazon, Meta, and Microsoft. They also boast a proven track record of successful teaching.",
+    last: "Our team of accomplished engineers, with impressive coding profiles across various programming platforms, hails from top tech companies like Google, Amazon, Meta, and Microsoft. ",
   },
   {
     head: "O2",

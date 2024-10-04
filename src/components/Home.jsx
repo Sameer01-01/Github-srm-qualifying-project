@@ -1,5 +1,6 @@
 
 import logo from '../assets/me.jpg';
+import tuflogo from '../assets/tuflogo.jpg'
 import { IoLogoYoutube } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
@@ -23,7 +24,7 @@ const Home = () => {
                 {/* Main Card */}
                 <div className='border-2 border-gray-700 bg-neutral-900 rounded-2xl flex flex-col md:flex-row items-center p-4 md:p-8 mt-9 max-w-[calc(100%-40px)] md:max-w-[calc(100%-230px)] mx-auto'>
                     <div>
-                        <img src={logo} alt="Img" className='w-24 md:w-28 rounded-3xl p-1' />
+                        <img src={tuflogo} alt="Img" className='w-24 md:w-28 rounded-3xl p-1' />
                     </div>
 
                     <div className='ml-0 md:ml-6 flex-grow mt-4 md:mt-0'>
