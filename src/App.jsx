@@ -6,6 +6,7 @@ import Pagethree from './components/Pagethree'
 import Pagefour from './components/Pagefour'
 import Pagefive from './components/Faq'
 import Bottomcard from './components/Bottomcard'
+import Footer from './components/Footer'
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
     <Pagefour/>
     <Pagefive/>
     <Bottomcard/>
+    <Footer/>
 
     </>
   )
