@@ -1,5 +1,12 @@
 
-import logo from '../assets/me.jpg';
+
+import gears from '../assets/gears.jpg';
+import cs from '../assets/cs.png';
+import sd from '../assets/sd.jpg';
+import stman from '../assets/stman.png';
+import googledocs from '../assets/googledocs.png'
+import ytlogo from '../assets/ytlogo.png'
+
 import tuflogo from '../assets/tuflogo.jpg'
 import { IoLogoYoutube } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
@@ -46,7 +53,7 @@ const Home = () => {
                     {/* Card 1 */}
                     <div className='border-2 rounded-2xl bg-neutral-900 border-zinc-600 p-4 sm:p-6 md:p-8 hover:border-white w-full md:w-auto'>
                         <div className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-2xl bg-zinc-700 flex justify-center items-center'>
-                            <img src={logo} alt="" className='w-12 sm:w-14 md:w-16 rounded-lg' />
+                            <img src={googledocs} alt="" className='w-12 sm:w-14 md:w-16 rounded-lg' />
                         </div>
                         <p className='text-white text-sm sm:text-base md:text-xl font-semibold mt-4 sm:mt-6 md:mt-7'>Striver’s DSA Sheet</p>
                         <p className='text-gray-400 text-xs sm:text-sm md:text-base mt-2 sm:mt-3'>Boost your DSA skills with our handy cheat sheets.</p>
@@ -56,49 +63,49 @@ const Home = () => {
                     {/* Card 2 */}
                     <div className='border-2 rounded-2xl bg-neutral-900 border-zinc-600 p-4 sm:p-6 md:p-8 hover:border-white w-full md:w-auto'>
                         <div className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-2xl bg-zinc-700 flex justify-center items-center'>
-                            <img src={logo} alt="" className='w-12 sm:w-14 md:w-16 rounded-lg' />
+                            <img src={sd} alt="" className='w-12 sm:w-14 md:w-16 rounded-lg' />
                         </div>
-                        <p className='text-white text-sm sm:text-base md:text-xl font-semibold mt-4 sm:mt-6 md:mt-7'>Striver’s DSA Sheet</p>
-                        <p className='text-gray-400 text-xs sm:text-sm md:text-base mt-2 sm:mt-3'>Boost your DSA skills with our handy cheat sheets.</p>
+                        <p className='text-white text-sm sm:text-base md:text-xl font-semibold mt-4 sm:mt-6 md:mt-7'>System Design</p>
+                        <p className='text-gray-400 text-xs sm:text-sm md:text-base mt-2 sm:mt-3'>Design better systems with our simplified approach.</p>
                         <button className='bg-transparent border-2 border-white rounded-full text-white p-2 sm:p-3 sm:px-8 md:p-3 md:px-10 mt-4 sm:mt-5'>Try it free!</button>
                     </div>
 
                     {/* Card 3 */}
                     <div className='border-2 rounded-2xl bg-neutral-900 border-zinc-600 p-4 sm:p-6 md:p-8 hover:border-white w-full md:w-auto'>
                         <div className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-2xl bg-zinc-700 flex justify-center items-center'>
-                            <img src={logo} alt="" className='w-12 sm:w-14 md:w-16 rounded-lg' />
+                            <img src={gears} alt="" className='w-12 sm:w-14 md:w-16 rounded-lg' />
                         </div>
-                        <p className='text-white text-sm sm:text-base md:text-xl font-semibold mt-4 sm:mt-6 md:mt-7'>Striver’s DSA Sheet</p>
-                        <p className='text-gray-400 text-xs sm:text-sm md:text-base mt-2 sm:mt-3'>Boost your DSA skills with our handy cheat sheets.</p>
+                        <p className='text-white text-sm sm:text-base md:text-xl font-semibold mt-4 sm:mt-6 md:mt-7'>Technical Blogs</p>
+                        <p className='text-gray-400 text-xs sm:text-sm md:text-base mt-2 sm:mt-3'>Dive Deep into Tech Innovation with Our Engaging Blogs.</p>
                         <button className='bg-transparent border-2 border-white rounded-full text-white p-2 sm:p-3 sm:px-8 md:p-3 md:px-10 mt-4 sm:mt-5'>Try it free!</button>
                     </div>
                     {/* Card 1 */}
                     <div className='border-2 rounded-2xl bg-neutral-900 border-zinc-600 p-4 sm:p-6 md:p-8 hover:border-white w-full md:w-auto'>
                         <div className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-2xl bg-zinc-700 flex justify-center items-center'>
-                            <img src={logo} alt="" className='w-12 sm:w-14 md:w-16 rounded-lg' />
+                            <img src={ytlogo} alt="" className='w-12 sm:w-14 md:w-16 rounded-lg' />
                         </div>
-                        <p className='text-white text-sm sm:text-base md:text-xl font-semibold mt-4 sm:mt-6 md:mt-7'>Striver’s DSA Sheet</p>
-                        <p className='text-gray-400 text-xs sm:text-sm md:text-base mt-2 sm:mt-3'>Boost your DSA skills with our handy cheat sheets.</p>
+                        <p className='text-white text-sm sm:text-base md:text-xl font-semibold mt-4 sm:mt-6 md:mt-7'>Striver’s DSA Playlist</p>
+                        <p className='text-gray-400 text-xs sm:text-sm md:text-base mt-2 sm:mt-3'>Master algorithms effortlessly with our curated DSA playlist.</p>
                         <button className='bg-transparent border-2 border-white rounded-full text-white p-2 sm:p-3 sm:px-8 md:p-3 md:px-10 mt-4 sm:mt-5'>Try it free!</button>
                     </div>
 
                     {/* Card 2 */}
                     <div className='border-2 rounded-2xl bg-neutral-900 border-zinc-600 p-4 sm:p-6 md:p-8 hover:border-white w-full md:w-auto'>
                         <div className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-2xl bg-zinc-700 flex justify-center items-center'>
-                            <img src={logo} alt="" className='w-12 sm:w-14 md:w-16 rounded-lg' />
+                            <img src={cs} alt="" className='w-12 sm:w-14 md:w-16 rounded-lg' />
                         </div>
-                        <p className='text-white text-sm sm:text-base md:text-xl font-semibold mt-4 sm:mt-6 md:mt-7'>Striver’s DSA Sheet</p>
-                        <p className='text-gray-400 text-xs sm:text-sm md:text-base mt-2 sm:mt-3'>Boost your DSA skills with our handy cheat sheets.</p>
+                        <p className='text-white text-sm sm:text-base md:text-xl font-semibold mt-4 sm:mt-6 md:mt-7'>CS Subjects</p>
+                        <p className='text-gray-400 text-xs sm:text-sm md:text-base mt-2 sm:mt-3'>Demystify CS topics with our easy-to-understand guides.</p>
                         <button className='bg-transparent border-2 border-white rounded-full text-white p-2 sm:p-3 sm:px-8 md:p-3 md:px-10 mt-4 sm:mt-5'>Try it free!</button>
                     </div>
 
                     {/* Card 3 */}
                     <div className='border-2 rounded-2xl bg-neutral-900 border-zinc-600 p-4 sm:p-6 md:p-8 hover:border-white w-full md:w-auto'>
                         <div className='w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-2xl bg-zinc-700 flex justify-center items-center'>
-                            <img src={logo} alt="" className='w-12 sm:w-14 md:w-16 rounded-lg' />
+                            <img src={stman} alt="" className='w-12 sm:w-14 md:w-16 rounded-lg' />
                         </div>
-                        <p className='text-white text-sm sm:text-base md:text-xl font-semibold mt-4 sm:mt-6 md:mt-7'>Striver’s DSA Sheet</p>
-                        <p className='text-gray-400 text-xs sm:text-sm md:text-base mt-2 sm:mt-3'>Boost your DSA skills with our handy cheat sheets.</p>
+                        <p className='text-white text-sm sm:text-base md:text-xl font-semibold mt-4 sm:mt-6 md:mt-7'>Striver’s CP Sheet</p>
+                        <p className='text-gray-400 text-xs sm:text-sm md:text-base mt-2 sm:mt-3'>Level up your coding game with our practice resources.</p>
                         <button className='bg-transparent border-2 border-white rounded-full text-white p-2 sm:p-3 sm:px-8 md:p-3 md:px-10 mt-4 sm:mt-5'>Try it free!</button>
                     </div>
                 </div>

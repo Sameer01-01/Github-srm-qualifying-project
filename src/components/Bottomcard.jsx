@@ -1,4 +1,5 @@
-import me from '../assets/me.jpg'
+
+import cusu from '../assets/cusu.png'
 
 const Bottomcard = () => {
   return (
@@ -6,7 +7,7 @@ const Bottomcard = () => {
       <div className="bg-black bg-opacity-95 p-4 ">
         <div className='bg-neutral-900 rounded-2xl max-w-full sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-[1100px] mx-auto p-6 sm:p-8 md:p-12'>
           <div className='flex justify-center mb-6'>
-            <img src={me} alt="" className='w-16 sm:w-20 rounded-full' />
+            <img src={cusu} alt="" className='w-16 sm:w-20 rounded-full' />
           </div>
           <p className='text-white text-lg sm:text-xl font-bold text-center p-2'>Still have questions?</p>
           <p className='text-white text-lg sm:text-xl font-bold text-center'>Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
