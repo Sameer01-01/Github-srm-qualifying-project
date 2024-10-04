@@ -4,14 +4,15 @@ function Faq() {
   return (
     <div>
       {/* Heading with responsive text size and padding */}
-      <div className="bg-black bg-opacity-95 pt-16 pb-8 sm:pt-20 sm:pb-10 text-3xl sm:text-4xl md:text-5xl text-white font-bold text-center flex items-center justify-center">
+      <div className="bg-black bg-opacity-95 pt-12 pb-6 sm:pt-16 sm:pb-8 text-2xl sm:text-3xl md:text-4xl text-white font-bold text-center flex items-center justify-center">
         <span className="text-rose-500">Frequently&nbsp;</span> Asked Questions
       </div>
 
       {/* Main content area with responsive margins and padding */}
-      <main className="min-h-screen flex flex-col items-center justify-center bg-black bg-opacity-95 px-4 sm:px-8">
-        <div className="mt-[-50px] sm:mt-[-80px] lg:mt-[-96px] max-w-[1500px] w-full">
-          <Accordian className="w-full max-w-[1200px] bg-black bg-opacity-95 text-white mx-auto">
+      <main className="min-h-screen flex flex-col items-center justify-center bg-black bg-opacity-95 px-4 sm:px-6 md:px-8">
+        {/* Adjust margin-top for small devices */}
+        <div className="mt-4 sm:mt-[-60px] lg:mt-[-80px] w-full max-w-[90%] sm:max-w-[80%] md:max-w-[1200px]">
+          <Accordian className="w-full bg-black bg-opacity-95 text-white mx-auto">
             <AccordianItem value="1" trigger="What's the best way to prepare for coding interviews?">
               Preparation is key and we are here to make you prepared! Consistent practice with coding problems is more effective than last-minute cramming. Tuf also helps you simulate the interview environment check out [link to your interview prep resources]. We've got dedicated sections for practice problems, coding challenges, and guides!
             </AccordianItem>
