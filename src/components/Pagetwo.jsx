@@ -83,7 +83,7 @@ const data = [
   {
     head: "O3",
     bottom: "Unmatched Content Depth",
-    last: "We prioritize quality content, offering in-depth explanations and a wider range of solved problems in both free and paid courses. Our focus is on developing problem-solving skills through intuitive video explanations.",
+    last: "We prioritize quality content, offering in-depth explanations and a wider range of solved problems in both free and paid courses.",
   },
 ];
 

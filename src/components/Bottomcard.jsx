@@ -24,7 +24,7 @@ const Bottomcard = () => {
             <p className='text-white text-xl font-semibold text-center p-8'>People have ALREADY signed up across the globe</p>
             <div className='flex justify-center items-center'>
 
-            <button className='text-white font-semibold bg-rose-500 rounded-xl p-4'>Get Started Now</button>
+            <button className='text-white font-semibold bg-rose-500 hover:bg-rose-400 rounded-xl p-4'>Get Started Now</button>
             </div>
         </div>
         </div>
