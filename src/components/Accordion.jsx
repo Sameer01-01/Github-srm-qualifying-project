@@ -11,7 +11,7 @@ export default function Accordian({ children, value, onChange, ...props }) {
   }, [selected]);
 
   return (
-    <ul {...props} className="bg-zinc-950 rounded-2xl text-white mx-auto max-w-[1000px]">
+    <ul {...props} className="bg-zinc rounded-2xl text-white mx-auto max-w-[1000px]">
       <AccordianContext.Provider value={{ selected, setSelected }}>
         {children}
       </AccordianContext.Provider>
