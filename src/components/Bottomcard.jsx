@@ -17,7 +17,7 @@ const Bottomcard = () => {
 
 
 
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-center items-center pb-10'>
 
           <div className='bg-neutral-900 rounded-2xl mt-10 p-10  w-[1250px] '>
             <p className='text-rose-500 text-5xl font-bold text-center'>3,00,000+</p>
