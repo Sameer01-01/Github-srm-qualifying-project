@@ -16,71 +16,77 @@ const Footer = () => {
                     {/* Combine all Quick Links into a single flex container */}
                     <div className="flex flex-col md:flex-row md:justify-around mt-4 md:mt-0 w-full">
                         <div className="text-center md:text-left mb-4 md:mb-0">
-                            <h2 className="text-rose-500 font-semibold mb-2">Quick Links</h2>
+                            <h2 className="text-rose-500 font-semibold mb-2">Company</h2>
                             <ul className="text-gray-400 space-y-1">
                                 <li>
-                                    <a href="/home" className="hover:text-rose-500 transition duration-200 hover:underline">Home</a>
+                                    <a href="/home" className="hover:text-rose-500 transition duration-200 hover:underline">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="/about" className="hover:text-rose-500 transition duration-200 hover:underline">About Us</a>
+                                    <a href="/about" className="hover:text-rose-500 transition duration-200 hover:underline">Contact Us</a>
                                 </li>
                                 <li>
-                                    <a href="/contact" className="hover:text-rose-500 transition duration-200 hover:underline">Contact</a>
+                                    <a href="/contact" className="hover:text-rose-500 transition duration-200 hover:underline">Pricing</a>
                                 </li>
                                 <li>
                                     <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">Terms and Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">Cancellation/Refund Policy</a>
                                 </li>
                             </ul>
                         </div>
                         {/* Repeat Quick Links for the other sections */}
                         <div className="text-center md:text-left mb-4 md:mb-0">
-                            <h2 className="text-rose-500 font-semibold mb-2">Quick Links</h2>
+                            <h2 className="text-rose-500 font-semibold mb-2">Quick Access</h2>
                             <ul className="text-gray-400 space-y-1">
                                 <li>
-                                    <a href="/home" className="hover:text-rose-500 transition duration-200 hover:underline">Home</a>
+                                    <a href="/home" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's DSA Sheet</a>
                                 </li>
                                 <li>
-                                    <a href="/about" className="hover:text-rose-500 transition duration-200 hover:underline">About Us</a>
+                                    <a href="/about" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's DSA Playlist</a>
                                 </li>
                                 <li>
-                                    <a href="/contact" className="hover:text-rose-500 transition duration-200 hover:underline">Contact</a>
+                                    <a href="/contact" className="hover:text-rose-500 transition duration-200 hover:underline">CS Subjects</a>
                                 </li>
                                 <li>
-                                    <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">Privacy Policy</a>
+                                    <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's CP Sheet</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="text-center md:text-left mb-4 md:mb-0">
-                            <h2 className="text-rose-500 font-semibold mb-2">Quick Links</h2>
+                            <h2 className="text-rose-500 font-semibold mb-2">DSA Sheets</h2>
                             <ul className="text-gray-400 space-y-1">
                                 <li>
-                                    <a href="/home" className="hover:text-rose-500 transition duration-200 hover:underline">Home</a>
+                                    <a href="/home" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's SDE Sheets</a>
                                 </li>
                                 <li>
-                                    <a href="/about" className="hover:text-rose-500 transition duration-200 hover:underline">About Us</a>
+                                    <a href="/about" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's A2Z DSA Playlist</a>
                                 </li>
                                 <li>
-                                    <a href="/contact" className="hover:text-rose-500 transition duration-200 hover:underline">Contact</a>
+                                    <a href="/contact" className="hover:text-rose-500 transition duration-200 hover:underline">SDE Core Sheet</a>
                                 </li>
                                 <li>
-                                    <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">Privacy Policy</a>
+                                    <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's CP Sheet</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="text-center md:text-left mb-4 md:mb-0">
-                            <h2 className="text-rose-500 font-semibold mb-2">Quick Links</h2>
+                            <h2 className="text-rose-500 font-semibold mb-2">DSA Playlist</h2>
                             <ul className="text-gray-400 space-y-1">
                                 <li>
-                                    <a href="/home" className="hover:text-rose-500 transition duration-200 hover:underline">Home</a>
+                                    <a href="/home" className="hover:text-rose-500 transition duration-200 hover:underline">Array</a>
                                 </li>
                                 <li>
-                                    <a href="/about" className="hover:text-rose-500 transition duration-200 hover:underline">About Us</a>
+                                    <a href="/about" className="hover:text-rose-500 transition duration-200 hover:underline">Graph Series</a>
                                 </li>
                                 <li>
-                                    <a href="/contact" className="hover:text-rose-500 transition duration-200 hover:underline">Contact</a>
+                                    <a href="/contact" className="hover:text-rose-500 transition duration-200 hover:underline">DP Series</a>
                                 </li>
                                 <li>
-                                    <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">Privacy Policy</a>
+                                    <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">LinkedList Series</a>
                                 </li>
                             </ul>
                         </div>
