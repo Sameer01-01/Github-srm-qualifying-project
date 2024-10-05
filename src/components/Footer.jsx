@@ -19,22 +19,22 @@ const Footer = () => {
                             <h2 className="text-rose-500 font-semibold mb-2">Company</h2>
                             <ul className="text-gray-400 space-y-1">
                                 <li>
-                                    <a href="/home" className="hover:text-rose-500 transition duration-200 hover:underline">About Us</a>
+                                    <a href="https://takeuforward.org/about-us" className="hover:text-rose-500 transition duration-200 hover:underline">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="/about" className="hover:text-rose-500 transition duration-200 hover:underline">Contact Us</a>
+                                    <a href="https://takeuforward.org/contact-us" className="hover:text-rose-500 transition duration-200 hover:underline">Contact Us</a>
                                 </li>
                                 <li>
-                                    <a href="/contact" className="hover:text-rose-500 transition duration-200 hover:underline">Pricing</a>
+                                    <a href="https://takeuforward.org/plus" className="hover:text-rose-500 transition duration-200 hover:underline">Pricing</a>
                                 </li>
                                 <li>
-                                    <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">Privacy Policy</a>
+                                    <a href="https://takeuforward.org/privacy-policy" className="hover:text-rose-500 transition duration-200 hover:underline">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">Terms and Conditions</a>
+                                    <a href="https://takeuforward.org/terms-and-conditions" className="hover:text-rose-500 transition duration-200 hover:underline">Terms and Conditions</a>
                                 </li>
                                 <li>
-                                    <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">Cancellation/Refund Policy</a>
+                                    <a href="https://takeuforward.org/cancellation-refund-policy" className="hover:text-rose-500 transition duration-200 hover:underline">Cancellation/Refund Policy</a>
                                 </li>
                             </ul>
                         </div>
@@ -43,16 +43,16 @@ const Footer = () => {
                             <h2 className="text-rose-500 font-semibold mb-2">Quick Access</h2>
                             <ul className="text-gray-400 space-y-1">
                                 <li>
-                                    <a href="/home" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's DSA Sheet</a>
+                                    <a href="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's DSA Sheet</a>
                                 </li>
                                 <li>
-                                    <a href="/about" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's DSA Playlist</a>
+                                    <a href="https://takeuforward.org/array/top-array-interview-questions-structured-path-with-video-solutions" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's DSA Playlist</a>
                                 </li>
                                 <li>
-                                    <a href="/contact" className="hover:text-rose-500 transition duration-200 hover:underline">CS Subjects</a>
+                                    <a href="https://takeuforward.org/dbms/most-asked-dbms-interview-questions" className="hover:text-rose-500 transition duration-200 hover:underline">CS Subjects</a>
                                 </li>
                                 <li>
-                                    <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's CP Sheet</a>
+                                    <a href="https://takeuforward.org/interview-experience/strivers-cp-sheet" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's CP Sheet</a>
                                 </li>
                             </ul>
                         </div>
@@ -60,16 +60,16 @@ const Footer = () => {
                             <h2 className="text-rose-500 font-semibold mb-2">DSA Sheets</h2>
                             <ul className="text-gray-400 space-y-1">
                                 <li>
-                                    <a href="/home" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's SDE Sheets</a>
+                                    <a href="https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's SDE Sheets</a>
                                 </li>
                                 <li>
-                                    <a href="/about" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's A2Z DSA Playlist</a>
+                                    <a href="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's A2Z DSA Playlist</a>
                                 </li>
                                 <li>
-                                    <a href="/contact" className="hover:text-rose-500 transition duration-200 hover:underline">SDE Core Sheet</a>
+                                    <a href="https://takeuforward.org/dbms/most-asked-dbms-interview-questions" className="hover:text-rose-500 transition duration-200 hover:underline">SDE Core Sheet</a>
                                 </li>
                                 <li>
-                                    <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's CP Sheet</a>
+                                    <a href="https://takeuforward.org/interview-experience/strivers-cp-sheet" className="hover:text-rose-500 transition duration-200 hover:underline">Striver's CP Sheet</a>
                                 </li>
                             </ul>
                         </div>
@@ -77,16 +77,16 @@ const Footer = () => {
                             <h2 className="text-rose-500 font-semibold mb-2">DSA Playlist</h2>
                             <ul className="text-gray-400 space-y-1">
                                 <li>
-                                    <a href="/home" className="hover:text-rose-500 transition duration-200 hover:underline">Array</a>
+                                    <a href="https://takeuforward.org/array/top-array-interview-questions-structured-path-with-video-solutions/" className="hover:text-rose-500 transition duration-200 hover:underline">Array</a>
                                 </li>
                                 <li>
-                                    <a href="/about" className="hover:text-rose-500 transition duration-200 hover:underline">Graph Series</a>
+                                    <a href="https://takeuforward.org/graph/striver-graph-series-top-graph-interview-questions/" className="hover:text-rose-500 transition duration-200 hover:underline">Graph Series</a>
                                 </li>
                                 <li>
-                                    <a href="/contact" className="hover:text-rose-500 transition duration-200 hover:underline">DP Series</a>
+                                    <a href="https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/" className="hover:text-rose-500 transition duration-200 hover:underline">DP Series</a>
                                 </li>
                                 <li>
-                                    <a href="/privacy" className="hover:text-rose-500 transition duration-200 hover:underline">LinkedList Series</a>
+                                    <a href="https://takeuforward.org/linked-list/top-linkedlist-interview-questions-structured-path-with-video-solutions/" className="hover:text-rose-500 transition duration-200 hover:underline">LinkedList Series</a>
                                 </li>
                             </ul>
                         </div>

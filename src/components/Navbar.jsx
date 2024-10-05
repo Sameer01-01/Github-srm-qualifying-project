@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import logo from '../assets/logo.png';
-import { FiMenu, FiX } from 'react-icons/fi'; // React Icons for hamburger and close icon
+import tufnav from '../assets/tufnav.png';
+import { FiMenu, FiX } from 'react-icons/fi'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,12 +12,12 @@ const Navbar = () => {
   return (
     <nav className="bg-black p-4">
       <div className="container mx-auto flex justify-between items-center">
-        {/* Left side (Image) */}
+       
         <div className="flex-shrink-0">
-          <img src={logo} alt="Logo" className="h-10" />
+          <img src={tufnav} alt="Logo" className="h-10" />
         </div>
 
-        {/* Hamburger Menu Icon (Visible on small screens) */}
+        
         <div className="lg:hidden">
           <button onClick={toggleMenu} className="text-white focus:outline-none">
             {isOpen ? <FiX className="h-6 w-6" /> : <FiMenu className="h-6 w-6" />}

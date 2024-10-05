@@ -6,7 +6,7 @@ import sd from '../assets/sd.jpg';
 import stman from '../assets/stman.png';
 import googledocs from '../assets/googledocs.png'
 import ytlogo from '../assets/ytlogo.png'
-
+import tufnav from '../assets/tufnav.png'
 import tuflogo from '../assets/tuflogo.jpg'
 import { IoLogoYoutube } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
