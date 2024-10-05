@@ -1,4 +1,4 @@
-# React + Vite
+# Takeuforward clone (React + Vite)
 
 This is a clone of takeuforward.org
 This is clone is fully responsvie for all screen sizes. 
